@@ -1,8 +1,8 @@
 {{ 'image-section.css' | asset_url | stylesheet_tag }}
 
 {% if section.settings.image != blank %}
-  <div class="image-container">
-    <div class="image">
+  <div class="image-section">
+    <div class="image-container">
       {% render 'image', image: section.settings.image %}
     </div> 
   </div>
