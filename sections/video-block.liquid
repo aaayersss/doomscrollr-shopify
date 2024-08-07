@@ -37,6 +37,7 @@
     var iframe = document.getElementById(id);
     var player = new Vimeo.Player(iframe);
     var muteButton = document.getElementById(`${id}-mute`);
+    var unmuteButton = document.getElementById(`${id}-unmute`);
     
     // Set initial muted state
     player.setVolume(0);
