@@ -1,15 +1,7 @@
 {%- liquid
     assign image_height = image.width | divided_by: image.aspect_ratio
-    if section.settings.image_2 != blank
-      assign image_class = 'banner__media-image-half'
-    endif
-    if section.settings.image_2 != blank and section.settings.stack_images_on_mobile
-      assign sizes = stacked_sizes
-    elsif section.settings.image_2 != blank
-      assign sizes = half_width
-    else
-      assign sizes = full_width
-    endif
+    assign sizes = '100vw'
+    assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' 
 -%}
 {{
   image
