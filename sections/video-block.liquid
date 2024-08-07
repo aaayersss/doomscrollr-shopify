@@ -3,7 +3,7 @@
 {% if section.settings.video != blank %}
   <div class="video-section">
     <iframe
-      src="https://player.vimeo.com/video/{{ section.settings.video }}"
+      src="https://player.vimeo.com/video/{{ section.settings.video.id }}"
       class="js-vimeo"
       allow="autoplay; encrypted-media"
       allowfullscreen
