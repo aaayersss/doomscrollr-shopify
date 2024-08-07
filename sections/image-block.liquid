@@ -5,6 +5,8 @@
     <div class="image-container">
       {% render 'image', image: section.settings.image %}
     </div> 
+    {% if section.settings.title != blank %}
+    {% endif %}
   </div>
 {% else %}
   <h5>Select an image</h5>
