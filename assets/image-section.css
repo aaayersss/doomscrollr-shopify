@@ -6,6 +6,7 @@
   padding: 20px;
   min-height: 100svh;
   text-align: center;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
@@ -15,7 +16,6 @@
   width: fit-content;
   height: fit-content;
   position: relative;
-  justify-content: center;
 }
 
 .image-container img{
