@@ -39,12 +39,17 @@
     var muteButton = document.getElementById(`${id}-mute`);
     var unmuteButton = document.getElementById(`${id}-unmute`);
     
-    
-    
     muteButton.addEventListener('click', function() {
       player.setVolume(1).then(function() {
           muteButton.style.display = "none"
           unmuteButton.style.display = "block"
+      });
+    });
+
+    unmuteButton.addEventListener('click', function() {
+      player.setVolume(0).then(function() {
+          unmuteButton.style.display = "none"
+          muteButton.style.display = "block"
       });
     });
   });
