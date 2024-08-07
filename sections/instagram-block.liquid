@@ -1,6 +1,22 @@
 {% schema %}
   {
     "name": "Instagram Block",
-    "settings": []
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Video Link"
+        }
+    ],
+    "presets": [
+      {
+        "name": "Instagram block"
+      }
+    ]
   }
 {% endschema %}
