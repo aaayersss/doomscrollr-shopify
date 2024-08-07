@@ -24,10 +24,17 @@
         "video": "https:\/\/vimeo.com\/751437786",
         "url": "#"
       }
+    },
+    "instagram_block_Wn9rch": {
+      "type": "instagram-block",
+      "settings": {
+        "embed_code": "<blockquote class=\"instagram-media\" data-instgrm-permalink=\"https:\/\/www.instagram.com\/p\/POST_ID\/\" data-instgrm-version=\"12\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\">\n<div style=\"padding:16px;\"> <a href=\"https:\/\/www.instagram.com\/p\/POST_ID\/\" style=\" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px; text-decoration:none;\" target=\"_blank\">View this post on Instagram<\/a>\n<\/div>\n<div style=\"padding:8px;\"> <div style=\" background:#F4F4F4; line-height:0; margin:0 auto; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"> <div style=\"display: block; height: 50px; margin: 0 auto 12px; width: 50px;\"> <svg width=\"50px\" height=\"50px\" viewbox=\"0 0 60 60\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,25.102 C554.732,25.315 553.446,25.4 549.951,25.4 C546.455,25.4 545.169,25.315 543.031,25.102 C541.207,24.922 539.633,24.581 538.07,23.805 C536.173,22.946 534.73,21.503 533.871,19.606 C533.096,18.043 532.755,16.469 532.575,14.645 C532.362,12.508 532.276,11.221 532.276,7.726 C532.276,4.23 532.362,2.944 532.575,0.806 C532.755,0.982 533.096,1.323 533.871,2.886 C534.73,4.783 536.173,6.226 538.07,7.085 C539.633,7.861 541.207,8.202 543.031,8.382 C545.169,8.596 546.455,8.682 549.951,8.682 C553.446,8.682 554.732,8.596 556.869,8.382 C558.692,8.202 560.267,7.861 561.83,7.085 C563.727,6.226 565.17,4.783 566.029,2.886 C566.803,1.323 567.145,0.982 567.325,0.806 C567.538,2.944 567.624,4.23 567.624,7.726 C567.624,11.221 567.538,12.508 567.325,14.645 C567.145,16.469 566.803,18.043 566.029,19.606 C565.17,21.503 563.727,22.946 561.83,23.805 C560.267,24.581 558.692,24.922 556.869,25.102 Z\"><\/path><\/g><\/g><\/g><\/svg>\n<\/div>\n<\/div>\n<div style=\"padding:16px 16px 16px 0; overflow:hidden;\">\n<div style=\"background-color:#F4F4F4; border-radius:3px; flex-grow:1; margin-right:16px; padding:0; width:100%;\"><\/div>\n<div style=\"background-color:#F4F4F4; border-radius:3px; height:50px; width:100%;\"><\/div>\n<\/div>\n<\/div>\n<div style=\"padding:16px;\"><p style=\" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:18px; margin:8px 0 0 0; text-align:center; text-decoration:none; word-wrap:break-word;\"><a href=\"https:\/\/www.instagram.com\/p\/POST_ID\/\" style=\" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:18px; text-decoration:none;\" target=\"_blank\">A post shared by User (@username)<\/a><\/p><\/div>\n<\/blockquote>\n<script async src=\"\/\/www.instagram.com\/embed.js\"><\/script>"
+      }
     }
   },
   "order": [
     "image_block_HyfNKQ",
-    "video_block_FANtgX"
+    "video_block_FANtgX",
+    "instagram_block_Wn9rch"
   ]
 }
