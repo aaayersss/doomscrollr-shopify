@@ -1,6 +1,10 @@
+{{ 'instagram-section.css' | asset_url | stylesheet_tag }}
+
 {% if section.settings.embed_code != blank  %}
   <div class="instagram-section">
-    {{ section.settings.embed_code }}
+      <div class="div.instragram-inner">
+        {{ section.settings.embed_code }}
+      </div>
   </div>
 {% else %}
    <h5>Provide an instagram embed code</h5>
