@@ -1,6 +1,37 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Video Block",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "url",
+        "id": "url",
+        "label": "Image Link"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "subtitle",
+        "label": "Subtitle"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Video block"
+      }
+    ]
   }
 {% endschema %}
