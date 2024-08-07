@@ -24,3 +24,7 @@
   max-width: 100%;
 }
 
+.video-icons{
+  display: flex;
+  justify-content: center;
+}
