@@ -26,5 +26,5 @@
 
 .video-icons{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
