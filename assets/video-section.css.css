@@ -12,6 +12,7 @@
 }
 
 .video-section iframe{
-  width: 75vh;
   border: 0;
+  width: 75vh;
+  height: 75vh;
 }
