@@ -10,6 +10,11 @@
         {{ section.settings.title }}
       </h2>
     {% endif %}
+    {% if section.settings.subtitle != blank %}
+      <h2 class="image-subtitle">
+        {{ section.settings.subtitle }}
+      </h2>
+    {% endif %}
   </div>
 {% else %}
   <h5>Select an image</h5>
