@@ -11,13 +11,13 @@
   justify-content: center;
 }
 
-.instagram-inner{
+.instragram-inner{
   width: 50%;
   min-width: 350px;
   max-width: 650px;
 }
 
-.instagram-inner iframe{
+.instragram-inner iframe{
     border: 0;
     min-width: auto!important;
 }
