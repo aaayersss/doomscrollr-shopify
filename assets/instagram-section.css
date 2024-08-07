@@ -13,7 +13,8 @@
 
 .instagram-inner{
   width: 50%;
-  min-width: 350px;  
+  min-width: 350px;
+  max-width: 650px;
 }
 
 .instagram-inner iframe{
