@@ -6,7 +6,9 @@
       {% render 'image', image: section.settings.image %}
       {% if section.settings.url != blank %}
         <a href="{{ section.settings.url }}" class="image-link">
-          
+          <div class="image-icon">
+            {% render 'linkIcon' %}
+          </div>
         </a>
       {% endif %}
     </div> 
