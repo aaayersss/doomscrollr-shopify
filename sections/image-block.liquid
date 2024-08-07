@@ -5,7 +5,7 @@
     <div class="image-container">
       {% render 'image', image: section.settings.image %}
       {% if section.settings.url != blank %}
-        <a class="image-link">
+        <a href="{{ section.settings.url }}" class="image-link">
           
         </a>
       {% endif %}
