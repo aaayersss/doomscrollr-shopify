@@ -12,6 +12,7 @@
 
 .image-container{
   display: flex;
+  width: fit-content;
   height: fit-content;
   position: relative;
   justify-content: center;
