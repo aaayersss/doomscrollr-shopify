@@ -30,3 +30,20 @@
   height: 100%;
   position: absolute;
 }
+
+.instragram-icon{
+  top: 7px;
+  right: 7px;
+  width: 48px;
+  padding: 8px;
+  color: #232323;
+  line-height: 1;
+  background: #fff;
+  position: absolute;
+  border-radius: 50%;
+  display: none;
+}
+
+.instragram-link:hover .instragram-icon{
+  display: block
+}
