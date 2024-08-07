@@ -44,7 +44,13 @@
 }
 
 .image-icon{
-  top: 15px;
-  left: 15px;
+  top: 7px;
+  width: 32px;
+  right: 27px;
+  padding: 8px;
+  color: #232323;
+  line-height: 1;
+  background: #fff;
   position: absolute;
+  border-radius: 50%;
 }
