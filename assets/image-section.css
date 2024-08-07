@@ -44,5 +44,7 @@
 }
 
 .image-icon{
-  
+  top: 15px;
+  left: 15px;
+  position: absolute;
 }
