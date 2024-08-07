@@ -17,9 +17,16 @@
         "title": "Some placeholder title for the image block",
         "subtitle": "Some placeholder text for the image block. Some placeholder text for the image block."
       }
+    },
+    "video_block_FANtgX": {
+      "type": "video-block",
+      "settings": {
+        "video_url": "https:\/\/vimeo.com\/751437786"
+      }
     }
   },
   "order": [
-    "image_block_HyfNKQ"
+    "image_block_HyfNKQ",
+    "video_block_FANtgX"
   ]
 }
