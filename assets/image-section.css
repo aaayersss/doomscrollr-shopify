@@ -3,10 +3,12 @@
   display: flex;
   padding: 20px;
   min-height: 100svh;
+  flex-direction: column;
 }
 
 .image-container{
   display: flex;
+  height: fit-content;
   justify-content: center;
 }
 
