@@ -10,3 +10,8 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.video-section iframe{
+  width: 75vh;
+  border: 0;
+}
