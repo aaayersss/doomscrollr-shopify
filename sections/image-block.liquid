@@ -3,9 +3,12 @@
 {% if section.settings.image != blank %}
   <div class="image-section">
     <div class="image-container">
-      {% if section.settings.url != blank %}
-      {% endif %}
       {% render 'image', image: section.settings.image %}
+      {% if section.settings.url != blank %}
+        <a class="image-link">
+          
+        </a>
+      {% endif %}
     </div> 
     {% if section.settings.title != blank %}
       <h2 class="image-title">
