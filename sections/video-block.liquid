@@ -8,7 +8,12 @@
       class="js-vimeo"
       allow="autoplay; encrypted-media"
     ></iframe>
-    <img id="{{ section.id }}-mute" src="{{ 'mute.png' | asset_url }}" />
+    <img 
+      width="24"
+      height="24"
+      id="{{ section.id }}-mute" 
+      src="{{ 'mute.png' | asset_url }}" 
+    />
   </div>
 {% else %}
   <h5>Select a video</h5>
