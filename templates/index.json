@@ -12,10 +12,10 @@
     "image_block_HyfNKQ": {
       "type": "image-block",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Front-Zoom.jpg",
+        "image": "shopify:\/\/shop_images\/image_50_aad516e4-7203-4c23-bbd3-ec9ba8adab2c.png",
         "url": "#",
         "title": "Some placeholder title for the image block",
-        "subtitle": "Simkhai Spring 2023 Ready-to-Wear collection, runway looks, beauty, models, and reviews."
+        "subtitle": "Some placeholder text for the image block. Some placeholder text for the image block."
       }
     }
   },
