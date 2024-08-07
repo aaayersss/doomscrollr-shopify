@@ -11,15 +11,16 @@
   justify-content: center;
 }
 
-.video-section iframe{
+.video-inner{
+  width: 800px;
+  height: 600px;
+  max-width: 100%;
+}
+
+.video-inner iframe{
   border: 0;
   width: 800px;
   height: 600px;
   max-width: 100%;
 }
 
-.video-inner{
-  width: 800px;
-  height: 600px;
-  max-width: 100%;
-}
