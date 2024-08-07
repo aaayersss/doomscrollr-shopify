@@ -6,6 +6,9 @@
       {% render 'image', image: section.settings.image %}
     </div> 
     {% if section.settings.title != blank %}
+      <h2 class="image-title">
+        {{ section.settings.title }}
+      </h2>
     {% endif %}
   </div>
 {% else %}
