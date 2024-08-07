@@ -1,3 +1,11 @@
+{% if section.settings.embed_code != blank  %}
+  <div class="instagram-post">
+    {{ section.settings.embed_code }}
+  </div>
+{% else %}
+   <h5>Provide an instagram embed code</h5>
+{% endif %}
+
 {% schema %}
   {
     "name": "Instagram Block",
@@ -8,9 +16,9 @@
     "class": "section",
     "settings": [
         {
-          "type": "url",
-          "id": "url",
-          "label": "Video Link"
+          "type": "textarea",
+          "id": "embed_code",
+          "label": "Embed Code"
         }
     ],
     "presets": [
