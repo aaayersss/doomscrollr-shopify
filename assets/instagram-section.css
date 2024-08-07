@@ -15,6 +15,7 @@
   width: 40%;
   min-width: 350px;
   max-width: 650px;
+  position: relative;
 }
 
 .instragram-inner iframe{
