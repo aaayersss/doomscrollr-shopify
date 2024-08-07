@@ -19,3 +19,7 @@
   display: block;
   max-width: 100%;
 }
+
+.image-title {
+  margin-top: 10px;
+}
