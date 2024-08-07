@@ -1,6 +1,7 @@
 .image-section{
   gap: 10px;
   width: 100%;
+  color: black;
   display: flex;
   padding: 20px;
   min-height: 100svh;
