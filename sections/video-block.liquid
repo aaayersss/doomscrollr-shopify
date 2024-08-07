@@ -2,7 +2,13 @@
 
 {% if section.settings.video != blank %}
   <div class="video-section">
-    VIDEO
+    <iframe
+                              src="https://player.vimeo.com/video/{{ block.settings.video_url.id }}"
+                              class="js-vimeo"
+                              allow="autoplay; encrypted-media"
+                              allowfullscreen
+                            
+                            ></iframe>
   </div>
 {% else %}
   <h5>Select a video</h5>
