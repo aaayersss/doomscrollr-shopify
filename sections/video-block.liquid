@@ -1,8 +1,12 @@
 {{ 'video-section.css' | asset_url | stylesheet_tag }}
 
-<div>
-  VIDEO
-</div>
+{% if section.settings.video != blank %}
+  <div>
+    VIDEO
+  </div>
+{% else %}
+  <h5>Select a video</h5>
+{% endif %}
 {% schema %}
   {
     "name": "Video Block",
@@ -14,7 +18,7 @@
     "settings": [
        {
           "type": "video_url",
-          "id": "video_url",
+          "id": "video",
           "accept": ["youtube", "vimeo"],
           "label": "Video Url"
         },
