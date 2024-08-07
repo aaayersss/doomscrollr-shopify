@@ -12,9 +12,11 @@
 }
 
 .instagram-inner{
-  width: 50%  
+  width: 50%;
+  min-width: 350px;  
 }
 
 .instagram-inner iframe{
+    border: 0;
     min-width: auto!important;
 }
