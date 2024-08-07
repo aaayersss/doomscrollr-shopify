@@ -28,5 +28,6 @@
 
 .image-subtitle{
   font-size: 1em;
+  margin-block: 0;
   line-height: 1.4;
 }
