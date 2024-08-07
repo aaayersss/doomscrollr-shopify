@@ -1,7 +1,9 @@
 {{ 'container.css' | asset_url | stylesheet_tag }}
 
 <div class="content-container">
-  {% render 'image', image: section.settings.image %}
+  <div>
+    {% render 'image', image: section.settings.image %}
+  </div> 
 </div>
 {% schema %}
   {
