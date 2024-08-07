@@ -49,4 +49,9 @@
   background: #fff;
   position: absolute;
   border-radius: 50%;
+  display: none;
+}
+
+.video-link:hover .video-icon{
+  display: block
 }
