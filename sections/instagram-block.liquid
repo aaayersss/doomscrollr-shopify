@@ -4,6 +4,11 @@
   <div class="instagram-section">
       <div class="instragram-inner">
         {{ section.settings.embed_code }}
+        <a href="{{ section.settings.url }}" class="instragram-link">
+           <div class="video-icon">
+            {% render 'linkIcon' %}
+          </div>
+        </a>
       </div>
   </div>
 {% else %}
