@@ -3,6 +3,7 @@
 {% if section.settings.video != blank %}
   <div class="video-section">
     <iframe
+      id="{{ section.id }}"
       src="https://player.vimeo.com/video/{{ section.settings.video.id }}?autoplay=1&loop=1&controls=0&muted=1"
       class="js-vimeo"
       allow="autoplay; encrypted-media"
@@ -11,6 +12,35 @@
 {% else %}
   <h5>Select a video</h5>
 {% endif %}
+
+<script>
+  const id="{{ section.id }}"
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    var iframe = document.getElementById(id);
+    var player = new Vimeo.Player(iframe);
+    var muteButton = document.getElementById('mute-button');
+    
+    // Set initial muted state
+    player.setVolume(0);
+    var isMuted = true;
+    
+    muteButton.addEventListener('click', function() {
+      if (isMuted) {
+        player.setVolume(1).then(function() {
+          muteButton.innerText = 'Mute';
+          isMuted = false;
+        });
+      } else {
+        player.setVolume(0).then(function() {
+          muteButton.innerText = 'Unmute';
+          isMuted = true;
+        });
+      }
+    });
+  });
+</script>
+
 {% schema %}
   {
     "name": "Video Block",
