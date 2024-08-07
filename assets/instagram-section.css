@@ -11,8 +11,10 @@
   justify-content: center;
 }
 
-.instagram-section iframe{
-    
+.instagram-inner{
+  width: 50%  
+}
+
+.instagram-inner iframe{
     min-width: auto!important;
-    
 }
