@@ -12,12 +12,7 @@
 }
 
 .instagram-section iframe{
-    border: 0;
-    padding: 0px;
-    display: block;
-    box-shadow: none;
-    max-width: 658px;
-    min-width: 326px;
-    margin: 0px 0px 12px;
-    width: calc(100% - 2px);
+    
+    min-width: auto!important;
+    
 }
