@@ -8,6 +8,7 @@
       class="js-vimeo"
       allow="autoplay; encrypted-media"
     ></iframe>
+    <img id="{{ section.id }}-mute" src="{{ 'mute.png' | asset_url }}" />
   </div>
 {% else %}
   <h5>Select a video</h5>
@@ -19,7 +20,7 @@
   document.addEventListener("DOMContentLoaded", function() {
     var iframe = document.getElementById(id);
     var player = new Vimeo.Player(iframe);
-    var muteButton = document.getElementById('mute-button');
+    var muteButton = document.getElementById(`${id}-mute`);
     
     // Set initial muted state
     player.setVolume(0);
