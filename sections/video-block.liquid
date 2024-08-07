@@ -39,22 +39,13 @@
     var muteButton = document.getElementById(`${id}-mute`);
     var unmuteButton = document.getElementById(`${id}-unmute`);
     
-    // Set initial muted state
-    player.setVolume(0);
-    var isMuted = true;
+    
     
     muteButton.addEventListener('click', function() {
-      if (isMuted) {
-        player.setVolume(1).then(function() {
-          muteButton.innerText = 'Mute';
-          isMuted = false;
-        });
-      } else {
-        player.setVolume(0).then(function() {
-          muteButton.innerText = 'Unmute';
-          isMuted = true;
-        });
-      }
+      player.setVolume(1).then(function() {
+          muteButton.style.display = "none"
+          unmuteButton.style.display = "block"
+      });
     });
   });
 </script>
