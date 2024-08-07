@@ -26,7 +26,9 @@
       </div> 
       {% if section.settings.url != blank %}
         <a href="{{ section.settings.url }}" class="video-link">
-          
+           <div class="video-icon">
+            {% render 'linkIcon' %}
+          </div>
         </a>
       {% endif %}
     </div>
