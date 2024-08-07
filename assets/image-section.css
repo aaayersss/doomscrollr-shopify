@@ -6,7 +6,8 @@
 }
 
 .image-container{
+  display: flex;
   max-width: 100%;
-  object-fit: contain;
-  display:block;
+  justify-content: center;
+  
 }
