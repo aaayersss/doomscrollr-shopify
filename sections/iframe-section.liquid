@@ -1,8 +1,17 @@
 {% schema %}
   {
     "name": "Iframe block",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "tag": "section",
+    "class": "section",
     "settings": [
-      
+      {
+        "type": "url",
+        "id": "url",
+        "label": "Image Link"
+      },
     ],
     "presets": [
       {
