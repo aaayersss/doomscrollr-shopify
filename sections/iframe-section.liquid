@@ -1,5 +1,5 @@
 {% if section.settings.url != blank %}
-  {{ section.id }}
+  
   <iframe class="iframe-section" src="{{ section.settings.url }}"></iframe>
   <style>
     html, body {
@@ -12,6 +12,10 @@
         height: 100%;
         border: none;
     }  
+
+    .shopify-section.section:not(#{{section.id}}){
+      display:none !important
+    }
   </style>
   
 {% else %}
