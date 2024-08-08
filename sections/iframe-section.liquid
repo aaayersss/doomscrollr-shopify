@@ -1,5 +1,13 @@
 {% if section.settings.url != blank %}
   <iframe class="iframe-section" src="{{ section.settings.url }}"></iframe>
+  <style>
+    .iframe-section{
+        width: 100%;
+        height: 100%;
+        border: none;
+    }  
+  </style>
+  
 {% else %}
    <h5>Insert an URL</h5>
 {% endif %}
