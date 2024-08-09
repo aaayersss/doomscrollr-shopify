@@ -27,7 +27,7 @@
         const {height} = header.getBoundingClientRect()
         const iframe = document.querySelector(".iframe-section");
         if(iframe) {
-          iframe.style.height = `calc(100svh - ${header}px)`
+          iframe.style.minHeight = `calc(100svh - ${header}px)`
         }
       }
     });
