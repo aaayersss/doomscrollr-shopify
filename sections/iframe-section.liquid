@@ -21,8 +21,11 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-       const header = document.querySelector("sticky-header");
-      console.log("header", header);
+      const header = document.querySelector("sticky-header");
+      
+      if(header){
+        const {height} = header.getBoundingClientRect()
+      }
     });
   </script>
 {% else %}
