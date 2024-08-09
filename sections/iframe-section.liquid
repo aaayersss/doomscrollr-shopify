@@ -36,8 +36,10 @@
 
       const footer = document.querySelector("footer");
       if(footer){
-        const html = document.querySelector("iframe-section");
-        const body = document.querySelector("iframe-section");
+        const html = document.querySelector("html");
+        const body = document.querySelector("body");
+
+        body.style.overflow= "auto";
       }
     });
   </script>
