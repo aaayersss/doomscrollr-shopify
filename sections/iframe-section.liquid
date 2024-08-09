@@ -38,9 +38,14 @@
       if(footer){
         const html = document.querySelector("html");
         const body = document.querySelector("body");
+        const iframe = document.querySelector(".iframe-section");
 
-        html.style.overflow= "auto";
-        body.style.overflow= "auto";
+        if(html && body && iframe){
+          html.style.overflow= "auto";
+          body.style.overflow= "auto";
+          iframe.style.width = "calc(100% + 15px)"
+        }
+        
       }
     });
   </script>
