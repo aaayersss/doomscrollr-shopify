@@ -25,7 +25,10 @@
       
       if(header){
         const {height} = header.getBoundingClientRect()
-        const iframe = document.querySelector(".iframe-section")
+        const iframe = document.querySelector(".iframe-section");
+        if(iframe) {
+          console.log("height", height)
+        }
       }
     });
   </script>
