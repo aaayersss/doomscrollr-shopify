@@ -106,6 +106,7 @@
     },
     "iframe_section_y4ipF7": {
       "type": "iframe-section",
+      "disabled": true,
       "settings": {
         "url": "https:\/\/panorama.reik.mx"
       }
